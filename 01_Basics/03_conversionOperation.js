@@ -46,3 +46,39 @@ let someNumber = 33
 let stringNumber = String(someNumber)
 console.log(stringNumber);
 console.log(typeof stringNumber)
+
+// *********************** Operations ***********************
+
+let value = 3;
+let negValue = -value;
+console.log(negValue);
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**3); power not multiplication 2power3
+// console.log(2/3);
+// console.log(2%3); modulous
+
+let str1 = "hello"
+let str2 = " JS"
+
+let str3 = str1 + str2
+console.log(str3);
+
+// console.log("1" + 2); //ans: 12 (a string and number are attached together)
+// console.log(1 + "2"); //ans: 12 (a number and string are attached together)
+// console.log("1" + 2 + 2); //ans: 122 (when string is first no conversion happens and they are all attached together)
+// console.log(1 + 2 + "2"); //ans: 32 (when number is first then it is operated and then attached with the string)
+
+// console.log( (3 + 4) * 5 % 3); //use parenthesis with complex equations to justify which operations need to be performed first
+
+console.log(true); // it will give true
+console.log(+true); // "bad code"; ans = 1, why? true is a boolean which is 1 and we have done increment, which didn't happen but it gives it's value as 1
+//console.log(true+); // will give an error
+console.log(+""); //"bad code";epmty "" give value 0 and + does conversion; tricky conversion but not required
+
+let gameCounter = 100
+++gameCounter; //++prefix postfix++
+console.log(gameCounter);
+
