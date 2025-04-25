@@ -7,15 +7,15 @@ String, Number, Boolearn, null, undefined, Symbol, BigInt */
 
 // JS dynamic type or static type?
 
-const score = 100
-const scoreValue = 100.3
+const score = 100 //datatype: number
+const scoreValue = 100.3 //datatype: number
 
-const isLoggedIn = false
-const outsideTemp = null
+const isLoggedIn = false //datatype: boolean
+const outsideTemp = null //datatype: object
 let userEmail;
 
-const id = Symbol('123')
-const anotherId = Symbol('123')
+const id = Symbol('123') //datatype: symbol
+const anotherId = Symbol('123') //datatype: symbol
 
 console.log(id === anotherId);
 
@@ -26,16 +26,16 @@ console.log(id === anotherId);
 
 // Array, Objects, Functions
 
-const heros = ["shaktiman", "naagraj", "doga"];
+const heros = ["shaktiman", "naagraj", "doga"]; //datatype:
 let myObj = {
     name: "hitesh",
     age: 22,
-}
+} //datatype: object
 
-const myFunction = function(){
+const myFunction = function(){ //datatype: function
     console.log("Hello world");
 }
 
-console.log(typeof anotherId);
+console.log(typeof myFunction);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
