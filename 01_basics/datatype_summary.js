@@ -39,3 +39,11 @@ const myFunction = function(){ //datatype: function
 console.log(typeof myFunction);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+//***********************************************************************************
+
+/* there are two types of memory 
+stack (Priimitive datatype) - (you get copy of the declared variable and if the value is chnaged it does not effect the actual value) 
+heap (non-primitive datatype) - (you get reference the original value, any changes done in value changes the original value)
+*/
+
